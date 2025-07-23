@@ -1,0 +1,199 @@
+#contact {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+button {
+  background-color: #61DAFB;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+/* styles.css */
+.download-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+#downloadBtn {
+  background: linear-gradient(135deg, #00b4db, #0083b0);
+  color: white;
+  font-size: 22px;
+  padding: 18px 36px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+  letter-spacing: 1px;
+}
+
+#downloadBtn:hover {
+  background: linear-gradient(135deg, #0083b0, #00b4db);
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+/* styling for the certifations section */
+
+.certificate-img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+.certificate-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 15px;
+  border: 2px solid #add8e6; /* Light blue border */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6); /* Soft blue shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.certificate-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 170, 255, 0.5); /* Deepened blue shadow */
+  border-color: #00aaff; /* Vibrant blue on hover */
+}
+
+/* Wrapper to center everything */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #eaf6ff; /* soft blue backdrop */
+}
+
+/* Section styling */
+#certifications {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Headings */
+#certifications h2 {
+  font-size: 2.5em;
+  color: #007acc;
+  margin-bottom: 30px;
+}
+
+/* Card styling */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #add8e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6);
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+/* Certificate image animation */
+.certificate-img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 15px;
+  border: 2px solid #add8e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(173, 216, 230, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certificate-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 170, 255, 0.5);
+  border-color: #00aaff;
+}
+
+
+/* certifddkgdgfg*/
+   
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+
+  h2 {
+    text-align: center;
+    color: #007acc;
+  }
+
+  .cert-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+
+  .cert-box {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .cert-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 2px solid #007acc;
+  }
+
+  .cert-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .cert-box p {
+    margin: 8px 0;
+  }
+
+
+
+  
